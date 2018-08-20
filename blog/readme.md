@@ -2,6 +2,7 @@
 title: Blog
 description: Learning web development, javascript and sharing thoughts on programming in general
 sidebar: auto
+footer: Kaizen Media Blog | Copyright © 2018
 ---
 
 # Blog

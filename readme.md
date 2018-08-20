@@ -1,5 +1,28 @@
 ---
 home: true
+meta:
+ - name: twitter:site 
+   content: https://kaizenmedia.co.za
+ - name: twitter:card 
+   content: summary
+ - name: twitter:title 
+   content: Kaizen Media Web Development
+ - name: twitter:description 
+   content: Where topics like web development, JavaScript and programming are discussed with passion.
+ - name: twitter:image 
+   content: /kaizen_media.png
+ - property: og:title 
+   content: Kaizen Media Blog 
+ - property: og:type 
+   content: article 
+ - property: og:url 
+   content: https://kaizenmedia.co.za 
+ - property: og:image 
+   content: /kaizen_media.png 
+ - property: og:description 
+   content: Where topics like web development, JavaScript and programming are discussed with passion. 
+ - property: og:site_name 
+   content: Kaizen Media
 heroImage: false
 title: Kaizen Media | Blog
 description: A web development blog, for javascript learners and lovers.
