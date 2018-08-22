@@ -220,7 +220,7 @@ This is STANDARD. All files should begin like this and here's why:
     <meta charset="utf-8" />
     <meta name="title" content="ZenTraders Logistics">
     <meta name="description" content="Making sure your goods are delivered. Always.">
-    <link rel="shortcut icon" href="./public/logo.png">
+    <link rel="shortcut icon" href="/logo.png">
     <title>ZenTrader Logistics</title>
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 </head>
@@ -260,7 +260,7 @@ If you see your title and icon on top, you are okay, but just to be sure add thi
     <meta charset="utf-8" />
     <meta name="title" content="ZenTraders Logistics">
     <meta name="description" content="Making sure your goods are delivered. Always.">
-    <link rel="shortcut icon" href="./public/logo.png">
+    <link rel="shortcut icon" href="/logo.png">
     <title>ZenTrader Logistics</title>
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 </head>
@@ -393,13 +393,16 @@ img {
     width: 300px;
 }
 ```
-
 But that will select ALL the images on the page. So we give it an id instead.
 Classes act the same as id's except we add only to one element, and classes we add to many elements that we want to look the same.
 
+The `<img>` tag is another special html tag specifically to hold images. It needs a `src=""` attribute to know where to get that image.
+
+The `<a></a>` tag represents a link! It's a for 'anchor'. No idea why. But this element needs and href attribute to take you to a link. href (hyper-reference).
+
 ## Special attributes
 
-You'll also notice the `height, alt, src, href` attributes. Height directly sets the height of the image, otherwise it will display at it's natural size. Alt is just info about the img that displays if the image doesn't load. src is important, this is where the image is found. In your case, it's in the same directory/folder as your index.html. That's why we can just set it to `src="/logo.png"`.
+You'll also notice the `height, alt, src, href` attributes. Height directly sets the height of the image, otherwise it will display at it's natural size. Alt is just info about the img that displays if the image doesn't load. src is important, this is where the image is found. In your case, it's in the same directory/folder as your index.html. That's why we can just set it to `src="/logo.png"`. href, as metioned, is special to the `a` tag.
 
 You may also have noticed that the image tag has no closing tag. It's also one of those special self closing tags.
 
@@ -411,7 +414,7 @@ ___
 
 <section width="100%">
         <nav>
-            <img height="60px" id="logo" src="/logo.png" alt="myLogo">
+            <img height="60px" id="logo" src="/website-tut-1/logo.png" alt="myLogo">
             <ul >
                 <li ><a href="#">Home</a></li>
                 <li ><a href="#">About us</a></li>
