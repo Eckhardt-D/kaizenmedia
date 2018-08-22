@@ -1,4 +1,5 @@
 ---
+sidebar: auto
 meta:
  - name: twitter:site 
    content: https://kaizenmedia.co.za/webdev/
@@ -33,5 +34,5 @@ footer: Kaizen Media Blog | Copyright © 2018
 These posts discuss topics like frameworks, API's, front-end, back-end and more.
 
 > Here are all the posts available today
-
-[Build your first Vue application](/webdev/build-a-vue-app.md)
+## [Code a website from scratch(beginners)](/webdev/build-a-website-from-scratch.md)
+## [Build your first Vue application](/webdev/build-a-vue-app.md)

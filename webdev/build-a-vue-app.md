@@ -27,4 +27,4 @@ meta:
 footer: Kaizen Media Blog | Copyright © 2018
 ---
 
-# Hello
+# Coming soon!
