@@ -9,7 +9,7 @@ meta:
  - name: twitter:title 
    content: Kaizen Media | Tutorials | Code Your First Website
  - name: twitter:description 
-   content: Learn how to build your first Vue.js application from scratch.
+   content: A step-by-step guide on coding your first website from scratch, Read now.
  - name: twitter:image 
    content: https://kaizenmedia.co.za/code-website-kaizen.png
  - property: og:title 
